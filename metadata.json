@@ -1,0 +1,340 @@
+{
+  "repository": "data-science-zero-to-one-hundred",
+  "timeline": {
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "days": 30
+  },
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-06-01",
+      "folder": "day-01-numpy-vectorization-and-memory-layouts",
+      "topic": "NumPy Vectorization & Memory Layouts",
+      "commit_message": "feat(day-01): NumPy vectorization, strides, views vs copies",
+      "files": [
+        "day-01-numpy-vectorization-and-memory-layouts/notes.md",
+        "day-01-numpy-vectorization-and-memory-layouts/script.py"
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2026-06-02",
+      "folder": "day-02-broadcasting-and-advanced-indexing",
+      "topic": "Broadcasting & Advanced Indexing",
+      "commit_message": "feat(day-02): broadcasting rules, pairwise distances, fancy indexing",
+      "files": [
+        "day-02-broadcasting-and-advanced-indexing/notes.md",
+        "day-02-broadcasting-and-advanced-indexing/script.py"
+      ]
+    },
+    {
+      "day": 3,
+      "date": "2026-06-03",
+      "folder": "day-03-linear-algebra-matrix-decompositions-svd",
+      "topic": "Linear Algebra: Matrix Decompositions & SVD",
+      "commit_message": "feat(day-03): SVD, low-rank approximation, least squares stability",
+      "files": [
+        "day-03-linear-algebra-matrix-decompositions-svd/notes.md",
+        "day-03-linear-algebra-matrix-decompositions-svd/script.py"
+      ]
+    },
+    {
+      "day": 4,
+      "date": "2026-06-04",
+      "folder": "day-04-eigenvalues-and-pca-math-from-scratch",
+      "topic": "Eigenvalues & PCA Math From Scratch",
+      "commit_message": "feat(day-04): PCA derivation, eigh vs SVD, whitening",
+      "files": [
+        "day-04-eigenvalues-and-pca-math-from-scratch/notes.md",
+        "day-04-eigenvalues-and-pca-math-from-scratch/script.py"
+      ]
+    },
+    {
+      "day": 5,
+      "date": "2026-06-05",
+      "folder": "day-05-scipy-signal-processing-and-optimization",
+      "topic": "SciPy: Signal Processing & Optimization",
+      "commit_message": "feat(day-05): scipy.signal filters/FFT and scipy.optimize MLE",
+      "files": [
+        "day-05-scipy-signal-processing-and-optimization/notes.md",
+        "day-05-scipy-signal-processing-and-optimization/script.py"
+      ]
+    },
+    {
+      "day": 6,
+      "date": "2026-06-06",
+      "folder": "day-06-pandas-series-dataframe-internals",
+      "topic": "Pandas Series & DataFrame Internals",
+      "commit_message": "feat(day-06): pandas memory, dtypes, alignment, copy-on-write",
+      "files": [
+        "day-06-pandas-series-dataframe-internals/notes.md",
+        "day-06-pandas-series-dataframe-internals/script.py"
+      ]
+    },
+    {
+      "day": 7,
+      "date": "2026-06-07",
+      "folder": "day-07-pandas-hierarchical-indexing-and-merging",
+      "topic": "Pandas Hierarchical Indexing & Merging",
+      "commit_message": "feat(day-07): MultiIndex, joins, merge_asof, join cardinality checks",
+      "files": [
+        "day-07-pandas-hierarchical-indexing-and-merging/notes.md",
+        "day-07-pandas-hierarchical-indexing-and-merging/script.py"
+      ]
+    },
+    {
+      "day": 8,
+      "date": "2026-06-08",
+      "folder": "day-08-pandas-aggregation-and-window-functions",
+      "topic": "Pandas Aggregation & Window Functions",
+      "commit_message": "feat(day-08): groupby agg/transform, rolling/expanding/ewm windows",
+      "files": [
+        "day-08-pandas-aggregation-and-window-functions/notes.md",
+        "day-08-pandas-aggregation-and-window-functions/script.py"
+      ]
+    },
+    {
+      "day": 9,
+      "date": "2026-06-09",
+      "folder": "day-09-time-series-analysis-and-resampling",
+      "topic": "Time-Series Analysis & Resampling",
+      "commit_message": "feat(day-09): decomposition, ACF, resampling, honest forecast evaluation",
+      "files": [
+        "day-09-time-series-analysis-and-resampling/notes.md",
+        "day-09-time-series-analysis-and-resampling/script.py"
+      ]
+    },
+    {
+      "day": 10,
+      "date": "2026-06-10",
+      "folder": "day-10-handling-gigabyte-datasets-with-polars",
+      "topic": "Handling Gigabyte Datasets with Polars",
+      "commit_message": "feat(day-10): Polars lazy engine vs pandas chunking",
+      "files": [
+        "day-10-handling-gigabyte-datasets-with-polars/notes.md",
+        "day-10-handling-gigabyte-datasets-with-polars/script.py"
+      ]
+    },
+    {
+      "day": 11,
+      "date": "2026-06-11",
+      "folder": "day-11-data-cleaning-and-missing-data-imputation",
+      "topic": "Data Cleaning & Missing-Data Imputation",
+      "commit_message": "feat(day-11): MCAR/MAR/MNAR and imputation benchmark",
+      "files": [
+        "day-11-data-cleaning-and-missing-data-imputation/notes.md",
+        "day-11-data-cleaning-and-missing-data-imputation/script.py"
+      ]
+    },
+    {
+      "day": 12,
+      "date": "2026-06-12",
+      "folder": "day-12-outlier-detection-and-robust-scalers",
+      "topic": "Outlier Detection & Robust Scalers",
+      "commit_message": "feat(day-12): z-score vs MAD vs IQR vs IsolationForest, RobustScaler",
+      "files": [
+        "day-12-outlier-detection-and-robust-scalers/notes.md",
+        "day-12-outlier-detection-and-robust-scalers/script.py"
+      ]
+    },
+    {
+      "day": 13,
+      "date": "2026-06-13",
+      "folder": "day-13-sql-for-data-science-window-functions-ctes",
+      "topic": "SQL for Data Science: Window Functions & CTEs",
+      "commit_message": "feat(day-13): SQL windows, CTEs, cohort retention (runnable on SQLite)",
+      "files": [
+        "day-13-sql-for-data-science-window-functions-ctes/notes.md",
+        "day-13-sql-for-data-science-window-functions-ctes/script.py"
+      ]
+    },
+    {
+      "day": 14,
+      "date": "2026-06-14",
+      "folder": "day-14-descriptive-statistics-and-distribution-fitting",
+      "topic": "Descriptive Statistics & Distribution Fitting",
+      "commit_message": "feat(day-14): moments, MLE fitting, KS/AIC, QQ plots",
+      "files": [
+        "day-14-descriptive-statistics-and-distribution-fitting/notes.md",
+        "day-14-descriptive-statistics-and-distribution-fitting/script.py"
+      ]
+    },
+    {
+      "day": 15,
+      "date": "2026-06-15",
+      "folder": "day-15-central-limit-theorem-and-bootstrapping",
+      "topic": "Central Limit Theorem & Bootstrapping",
+      "commit_message": "feat(day-15): CLT simulation, bootstrap CIs, coverage experiment",
+      "files": [
+        "day-15-central-limit-theorem-and-bootstrapping/notes.md",
+        "day-15-central-limit-theorem-and-bootstrapping/script.py"
+      ]
+    },
+    {
+      "day": 16,
+      "date": "2026-06-16",
+      "folder": "day-16-hypothesis-testing-z-test-t-test-anova",
+      "topic": "Hypothesis Testing: Z-test, T-test, ANOVA",
+      "commit_message": "feat(day-16): z/t/Welch/paired tests, ANOVA from scratch, multiple comparisons",
+      "files": [
+        "day-16-hypothesis-testing-z-test-t-test-anova/notes.md",
+        "day-16-hypothesis-testing-z-test-t-test-anova/script.py"
+      ]
+    },
+    {
+      "day": 17,
+      "date": "2026-06-17",
+      "folder": "day-17-chi-square-and-non-parametric-tests",
+      "topic": "Chi-Square & Non-Parametric Tests",
+      "commit_message": "feat(day-17): chi-square, Fisher, Mann-Whitney, Kruskal, permutation tests",
+      "files": [
+        "day-17-chi-square-and-non-parametric-tests/notes.md",
+        "day-17-chi-square-and-non-parametric-tests/script.py"
+      ]
+    },
+    {
+      "day": 18,
+      "date": "2026-06-18",
+      "folder": "day-18-ab-testing-design-sample-size-and-power",
+      "topic": "A/B Testing Design: Sample Size & Power",
+      "commit_message": "feat(day-18): power analysis, peeking inflation, CUPED",
+      "files": [
+        "day-18-ab-testing-design-sample-size-and-power/notes.md",
+        "day-18-ab-testing-design-sample-size-and-power/script.py"
+      ]
+    },
+    {
+      "day": 19,
+      "date": "2026-06-19",
+      "folder": "day-19-bayesian-inference-and-mcmc-concepts",
+      "topic": "Bayesian Inference & MCMC Concepts",
+      "commit_message": "feat(day-19): Beta-Binomial, Metropolis-Hastings, posterior decisions",
+      "files": [
+        "day-19-bayesian-inference-and-mcmc-concepts/notes.md",
+        "day-19-bayesian-inference-and-mcmc-concepts/script.py"
+      ]
+    },
+    {
+      "day": 20,
+      "date": "2026-06-20",
+      "folder": "day-20-exploratory-data-analysis-frameworks",
+      "topic": "Exploratory Data Analysis Frameworks",
+      "commit_message": "feat(day-20): systematic EDA function with leakage & quality checks",
+      "files": [
+        "day-20-exploratory-data-analysis-frameworks/notes.md",
+        "day-20-exploratory-data-analysis-frameworks/script.py"
+      ]
+    },
+    {
+      "day": 21,
+      "date": "2026-06-21",
+      "folder": "day-21-publication-ready-dataviz-seaborn-plotly",
+      "topic": "Publication-Ready Dataviz: Seaborn & Plotly",
+      "commit_message": "feat(day-21): seaborn/matplotlib styling, plotly interactives, chart-choice rules",
+      "files": [
+        "day-21-publication-ready-dataviz-seaborn-plotly/notes.md",
+        "day-21-publication-ready-dataviz-seaborn-plotly/script.py"
+      ]
+    },
+    {
+      "day": 22,
+      "date": "2026-06-22",
+      "folder": "day-22-dimensionality-reduction-tsne-and-umap",
+      "topic": "Dimensionality Reduction: t-SNE & UMAP",
+      "commit_message": "feat(day-22): t-SNE/UMAP math, trustworthiness, pitfalls",
+      "files": [
+        "day-22-dimensionality-reduction-tsne-and-umap/notes.md",
+        "day-22-dimensionality-reduction-tsne-and-umap/script.py"
+      ]
+    },
+    {
+      "day": 23,
+      "date": "2026-06-23",
+      "folder": "day-23-feature-encoding-target-and-frequency-encoding",
+      "topic": "Feature Encoding: Target & Frequency Encoding",
+      "commit_message": "feat(day-23): one-hot vs target/frequency encoding and leakage control",
+      "files": [
+        "day-23-feature-encoding-target-and-frequency-encoding/notes.md",
+        "day-23-feature-encoding-target-and-frequency-encoding/script.py"
+      ]
+    },
+    {
+      "day": 24,
+      "date": "2026-06-24",
+      "folder": "day-24-handling-extreme-imbalance-smote-cost-sensitive",
+      "topic": "Handling Extreme Imbalance: SMOTE & Cost-Sensitive Learning",
+      "commit_message": "feat(day-24): imbalance metrics, SMOTE from scratch, cost-optimal thresholds",
+      "files": [
+        "day-24-handling-extreme-imbalance-smote-cost-sensitive/notes.md",
+        "day-24-handling-extreme-imbalance-smote-cost-sensitive/script.py"
+      ]
+    },
+    {
+      "day": 25,
+      "date": "2026-06-25",
+      "folder": "day-25-feature-selection-filter-wrapper-embedded",
+      "topic": "Feature Selection: Filter, Wrapper, Embedded",
+      "commit_message": "feat(day-25): filter/wrapper/embedded selection and selection-bias leakage",
+      "files": [
+        "day-25-feature-selection-filter-wrapper-embedded/notes.md",
+        "day-25-feature-selection-filter-wrapper-embedded/script.py"
+      ]
+    },
+    {
+      "day": 26,
+      "date": "2026-06-26",
+      "folder": "day-26-building-production-data-validation-pipelines",
+      "topic": "Building Production Data-Validation Pipelines",
+      "commit_message": "feat(day-26): schema contracts, quarantine, sklearn pipelines, fail-fast gates",
+      "files": [
+        "day-26-building-production-data-validation-pipelines/notes.md",
+        "day-26-building-production-data-validation-pipelines/script.py"
+      ]
+    },
+    {
+      "day": 27,
+      "date": "2026-06-27",
+      "folder": "day-27-feature-stores-and-data-drift-monitoring",
+      "topic": "Feature Stores & Data Drift Monitoring",
+      "commit_message": "feat(day-27): PSI/KS/chi-square drift, point-in-time joins, monitoring policy",
+      "files": [
+        "day-27-feature-stores-and-data-drift-monitoring/notes.md",
+        "day-27-feature-stores-and-data-drift-monitoring/script.py"
+      ]
+    },
+    {
+      "day": 28,
+      "date": "2026-06-28",
+      "folder": "day-28-interview-case-study-churn-and-ltv-modeling",
+      "topic": "Interview Case Study: Churn & LTV Modeling",
+      "commit_message": "feat(day-28): churn model, lift/calibration, LTV math, campaign ROI",
+      "files": [
+        "day-28-interview-case-study-churn-and-ltv-modeling/notes.md",
+        "day-28-interview-case-study-churn-and-ltv-modeling/script.py"
+      ]
+    },
+    {
+      "day": 29,
+      "date": "2026-06-29",
+      "folder": "day-29-interview-case-study-search-and-recommendation-metrics",
+      "topic": "Interview Case Study: Search & Recommendation Metrics",
+      "commit_message": "feat(day-29): P@k, MAP, MRR, NDCG, position bias, matrix-factorization recs",
+      "files": [
+        "day-29-interview-case-study-search-and-recommendation-metrics/notes.md",
+        "day-29-interview-case-study-search-and-recommendation-metrics/script.py"
+      ]
+    },
+    {
+      "day": 30,
+      "date": "2026-06-30",
+      "folder": "day-30-faang-data-science-interview-mock-and-cheatsheet",
+      "topic": "FAANG Data Science Interview Mock & Cheatsheet",
+      "commit_message": "feat(day-30): mock interview rounds, formula cheatsheet with numeric self-checks",
+      "files": [
+        "day-30-faang-data-science-interview-mock-and-cheatsheet/notes.md",
+        "day-30-faang-data-science-interview-mock-and-cheatsheet/script.py"
+      ]
+    }
+  ]
+}
